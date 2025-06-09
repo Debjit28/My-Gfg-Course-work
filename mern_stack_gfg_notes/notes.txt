@@ -1,0 +1,55 @@
+earlier there frameworks like 
+html----|-->runs on browser html->dom
+css----| ccs->
+
+jsx->java script xml
+jss ---|jss->engine
+jsx->browser babel converts it to browser language
+
+how browser understands it with the help
+v8 engine
+backend
+instead of learning different languages we can use js to do work for 
+so express engine
+node js
+node js runtime hai
+difference between html and html 5
+data vs information
+ip address vs mac addess
+why is it preferable script type preferable in in body
+
+
+sementic tags
+they give a brief idea of information
+about the content.
+also used in optimisation
+
+
+
+inline elements and block elements
+content space
+continues with line space
+
+
+tags vs elements 
+
+
+learn basic html till next week
+
+
+id tells uniqueness
+
+
+paddinf tb->iska pixel raheta hai lr->same pixel rehta hai 
+
+
+    task border boxes 4 box 1 px tighness 4 box my name
+    
+
+L-2
+version control
+local system 
+git 
+cloud
+
+https://github.com/gfgAman/Mern-15.git
