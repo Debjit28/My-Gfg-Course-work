@@ -1,29 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">                                
 <head>          
-    <!-- head contains meta data -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Blue Circle Inside Red Box</title>
+    <style>
+    .outer-box {
+        width: 300px;
+        height: 300px;
+        background-color: red;
+        padding: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .inner-circle {
+        width: 150px;
+        height: 150px;
+        background-color: blue;
+        border-radius: 50%;
+    }
+    </style>
 </head>
 <body>
-<h1>this is first heading</h1>
-<h2>This is the second heading</h2>
-<h3>this is third heading</h3>
-<h4>This is the fourth heading</h4>
-
-
-    
-
+    <div class="outer-box">
+        <div class="inner-circle"></div>
+    </div>
 </body>
-</html>
-                                                                                                                                                        
-
-
-
-
-
-<!--<h1>-><h6>-->
-<!-- tags in html -->
-<!-- what is a tag -->
- <!-- tag is a mark up entity which can format give structure , meaning -->
+</html>  
