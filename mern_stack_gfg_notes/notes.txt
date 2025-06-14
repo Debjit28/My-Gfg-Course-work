@@ -26,13 +26,13 @@ also used in optimisation
 
 
 
-inline elements and block elements
 content space
 continues with line space
 
 
 tags vs elements 
 
+inline elements and block elements
 
 learn basic html till next week
 
@@ -44,7 +44,18 @@ paddinf tb->iska pixel raheta hai lr->same pixel rehta hai
 
 
     task border boxes 4 box 1 px tighness 4 box my name
-    
+inline vs block 
+
+
+span    h tags
+input   article
+button
+image
+
+sementic
+header
+article
+
 
 L-2
 version control
