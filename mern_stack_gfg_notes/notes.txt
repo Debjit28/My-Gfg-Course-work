@@ -94,4 +94,4 @@ bootstrap
 
 
 this weeek 
-revise html css and learn bootstrap
+revise html css and learn bootstrap and basics of html css
