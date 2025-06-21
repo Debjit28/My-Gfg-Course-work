@@ -95,3 +95,10 @@ bootstrap
 
 this weeek 
 revise html css and learn bootstrap and basics of html css
+
+
+scripting language which makes ui dynamic
+synchronus single thread language
+
+
+loosely typed language
