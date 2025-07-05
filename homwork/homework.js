@@ -6,5 +6,28 @@ function double_element(){
     }
     console.log(arr_1);
 }
-arr_1=[2,3,4,5,6,7]
+
+
+
+
+arr_1=[2,3,4,5,6,7];
+
 double_element(arr_1);
+
+
+
+let test_arr=[5,4,6,7,8,9,7]
+
+
+
+let evensorter=(test_arr)=>{
+    new_arr=[]
+    for(let i=0;i<test_arr.length;i++){
+        if(arr_1[i]%2==0){
+            new_arr.push(test_arr[i])
+        }
+    }
+    console.log(new_arr)
+}
+
+console.log(evensorter)
