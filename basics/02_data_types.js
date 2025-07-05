@@ -16,3 +16,4 @@ let islogged=false
 // */
 
 console.log(typeof"islogged")
+console.log(typeof null)
