@@ -14,19 +14,25 @@ console.log(value_of_num)
 
 let islogged="hit"
 let isbool=Boolean(islogged);
-console.log(isbool)
+console.log(isbool);
 
 /*
 1=>true 0=>false
 ""=>false
+NaN->not a number
 "hit"=>true
 */
 
+
+
 let someNumber=99;
-let StringNum=String(someNumber)
+let StringNum=String(someNumber);
 
 console.log(StringNum);
-console.log(typeof(StringNum))
-
+console.log(typeof(StringNum));
+let test_num="33uhe";
+console.log(typeof(test_num));
+let new_test=Number(test_num);
+console.log(new_test)
 /*========================================================================================Operation===========================================================================*/
 
