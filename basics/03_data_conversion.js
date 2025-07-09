@@ -23,7 +23,7 @@ NaN->not a number
 "hit"=>true
 */
 
-
+/*
 
 let someNumber=99;
 let StringNum=String(someNumber);
@@ -35,4 +35,20 @@ console.log(typeof(test_num));
 let new_test=Number(test_num);
 console.log(new_test)
 /*========================================================================================Operation===========================================================================*/
+/*
+let value=3;
+let neg_val=-value;
+/*
+basic operation
++->add 
+- ->subtarct
+* ->subtarct
+** ->power 
+/ ->divide
+% ->modulus
+*/
 
+/* some confusing things in js operations in js */
+console.log("1"+2);
+console.log(1+"2");
+console.log(1+"2"+2);
