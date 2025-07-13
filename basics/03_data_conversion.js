@@ -11,7 +11,7 @@ console.log(value_of_num)
 //true/false=>1/0
 */
 
-
+/*
 let islogged="hit"
 let isbool=Boolean(islogged);
 console.log(isbool);
@@ -49,7 +49,29 @@ basic operation
 */
 
 /* some confusing things in js operations in js */
+
+
+/*
 console.log("1"+2);
 console.log(1+"2");
 console.log(1+"2"+2);
 console.log("1"+2+2)
+*/
+
+//some confusing code
+
+/*
+console.log(true);
+consoole.log(+true);->returns 1
+
+*/
+/*
+let num1 , num2 , num3;
+num1=num2=num3=2+2;
+*/
+
+/*
+let gamecounter=1001;
+gamecounter++;
+console.log(gamecounter);
+*/
