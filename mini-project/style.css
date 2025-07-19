@@ -11,22 +11,168 @@
     --accent-wood:#6F5A3E;
     --highlight-light:#D8C5A8;
     --metal-line:#37414C;
+    --shadow-charcoal:#111218;
+    --rusty-metal:#5B4B3B;
+    --crimson:#7E1E2B;
+    --dark-colour:#1C1C24;
 }
 
 body{
     background-color:var(--background);
+    font-family: 'Cormorant Garamond', serif;
     color: var(--text);
 }
+
+
+h1, .title {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+
+
 .container{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 120px;
+    margin:120px auto 0 auto;
+    background-color: var(--background);
+    max-width: 800px;
 }
+
+
+
 .todocontainer{
-    padding: 10px;
-    border-radius: 10px;
+    padding: 30px;
+    border-radius: 20px;
     border:2px solid var(--highlight-light);
     display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width:100%
+}
+
+
+
+.tododetails{
+    width:100%;
+}
+
+
+#progress_bar{
+    width:  100%;
+    height: 10px;
+    background-color: var(--shadow-charcoal);
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+
+#progress{
+    width:0%;
+    height: 10px;
+    background-color: var(--text);
+    border: 10px;
+    transition: all 0.3s ease;
+}
+
+
+
+#number-of-Tasks{
+    width: 100px;
+    height: 100px;
+    background-color: var(--metal-line);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+form{
+    margin-top: 60px;
+    width:100%;
+    display: flex;
+    gap: 10px;
+}
+
+
+
+input{
+    flex:1;
+    padding: 20px;
+    background: var(--dark-colour);
+    border: 1px solid var(--crimson);
+    border-radius: 10px;
+    outline: none;
+    color: whitesmoke;
+    outline: none;
+    font-weight: bold;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+
+
+button{
+    padding: 16px;
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    background-color: var(--crimson);
+    color: var(--text);
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Cormorant Goromond',serif;
+    outline: none;
+    border:none;
+    cursor: pointer;
+}
+
+
+#Duty-List {
+  display: flex;
+  flex-direction: column;
+  gap: 9.5px;
+  margin-top: 30px;
+  width: 100%;
+  list-style-type: none;
+}
+
+.taskItem {
+  width: 100%;
+  display: flex;
+  background-color: var(--crimson);
+  padding: 10px;
+  border-radius: 10px;
+  justify-content: space-between;
+  color: white;
+  align-items: center;
+}
+
+.task{
+    display: flex;
+    align-items: center;
+    gap:15px;
+}
+
+.taskInput{
+    width: 10px;
+    height:10px;
+}
+
+.task.completed p {
+  text-decoration: line-through;
+  color: teal;
+}
+
+.taskItem img{
+    width: 25px;
+    height: 25px;
+    margin: 0 10px;
+    cursor: pointer;
 }
