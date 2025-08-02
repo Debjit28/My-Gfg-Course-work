@@ -1,11 +1,5 @@
-let name="Hitesh";
-let age=19;
 
-let islogged=false
-
-
-/*
-
+/* To remember edge cases
 //number =>`2 to power 53
 //bigint
 //String
@@ -13,7 +7,21 @@ let islogged=false
 // undefined =>
 // symbol
 // object
-// */
+// 
+// 
+*/
+/*
+console.log(typeof"islogged");
+console.log(typeof null);
+/*string*/
+let myname="Dev";
+let type_of_data_var_myname=typeof myname;
+/* Int */
+let age=19;
+let type_of_data_var_age=typeof age;
+/* boolean */
+let islogged=false;
+let type_of_data_var_islogged=typeof islogged;
 
-console.log(typeof"islogged")
-console.log(typeof null)
+
+console.table([myname,type_of_data_var_myname,age,type_of_data_var_age,islogged,type_of_data_var_islogged])
