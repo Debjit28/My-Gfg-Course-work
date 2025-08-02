@@ -7,6 +7,10 @@ console.log(account_id);
 accountmail="dibb@jfnklg.com"
 accountcity="Delhi"
 console.table([account_id,accountmail,accountcity])
+/*
+let name='Dev'
+console.log(name)
+
 
 /*
 prefer not use var
