@@ -26,4 +26,13 @@ let type_of_data_var_islogged=typeof islogged;
 let anime;
 let data_type_anime=typeof anime
 
-console.table([myname,type_of_data_var_myname,age,type_of_data_var_age,islogged,type_of_data_var_islogged,anime,data_type_anime])
+/* null */
+let noval=null;
+let datatype_noval=typeof noval
+
+/* object */
+const personal_Details={name:"Debjit"}
+console.table([myname,type_of_data_var_myname,age,type_of_data_var_age,islogged,type_of_data_var_islogged,anime,data_type_anime,noval,datatype_noval])
+/* template literals */
+let mssg=`My is ${myname} and my age ${age}`
+console.log("mssg")
