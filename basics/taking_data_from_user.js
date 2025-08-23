@@ -1,2 +1,4 @@
 const readlineSync=require("readline-sync");
-readlineSync.question("Tell me your name");
+const myname=readlineSync.question("Tell me your name");
+
+console.log(myname);
