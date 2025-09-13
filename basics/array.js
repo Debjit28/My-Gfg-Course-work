@@ -8,7 +8,7 @@
 // };
 
 
-// ans(arr,"Eric");
+//ans(arr,"Eric");
 
 // //linear search Big(O)
 // let geroceries=["Banana","Milk","Apple","Avcado"]
